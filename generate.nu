@@ -2,7 +2,7 @@
 # https://fonts.google.com/specimen/Roboto+Serif
 
 
-let alphabet = "abcdefghijklmnopqrstuvwxyz0123456789!?@#:;[]{}-=_+%^()/.:,"
+let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!?@#:;[]{}-=_+%^()/.:,"
 let special = {
    "&": "&amp;", 
    "<": "&lt;", 
@@ -71,14 +71,14 @@ let svg = {|bg, text, letter| $"<?xml version=\"1.0\" encoding=\"UTF-8\" standal
        y=\"0\" />
     <text
        xml:space=\"preserve\"
-       style=\"font-style:italic;line-height:1;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.1124px;font-family:'Roboto Serif';-inkscape-font-specification:'Roboto Serif, @GRAD=100,opsz=40,wdth=150';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'GRAD' 100, 'opsz' 40, 'wdth' 150;fill:($text);stroke-width:0.926033;fill-opacity:1\"
+       style=\"font-style:italic;line-height:1;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7px;font-family:'Roboto Serif';-inkscape-font-specification:'Roboto Serif, @GRAD=100,opsz=40,wdth=150';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'GRAD' 100, 'opsz' 40, 'wdth' 150;fill:($text);stroke-width:0.926033;fill-opacity:1\"
        x=\"50%\"
        y=\"50%\"
        text-anchor=\"middle\"
        alignment-baseline=\"central\"
        dominant-baseline=\"central\"
        line-height=\"0\"
-       id=\"text1\">($letter)</text>
+       id=\"text1\">&#8220;($letter)&#8221;</text>
   </g>
 </svg>"}
 
